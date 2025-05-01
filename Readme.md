@@ -61,6 +61,12 @@ npm run preview
 - [`style.css`](style.css): App styles
 - [`src/`](src/): Vite starter files (not used in main app)
 
+## Images
+
+![Watch with date and time zone](image.png)
+
+![Modal for changing the time zone](image-1.png)
+
 ## Dependencies
 
 - [dayjs](https://www.npmjs.com/package/dayjs) (with timezone and UTC plugins)
