@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <script type="module" crossorigin src="/TimezonesWatch/assets/index-BrCBj3ms.js"></script>
+  <link rel="stylesheet" crossorigin href="/TimezonesWatch/assets/index-CS9K8Vrx.css">
+</head>
+<body>
+    <div id="app">
+        <div style="display: flex; align-items: center;">
+            <div id="local" style="margin-right: 10px;">
+            </div>
+            <button id="change-local" class="btn">
+            ✍🏻
+            </button>                        
+        </div>
+        <div id="time">
+        </div>
+        <div id="date">       
+        </div>
+    </div>
+
+    <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+          <header class="modal__header">
+            <h2 class="modal__title" id="modal-1-title">
+              Change Timezone
+            </h2>
+            
+          </header>
+          <main class="modal__content" id="modal-1-content">
+            <select id="timezone"></select>
+            <button class="modal__close" id="close-modal" aria-label="Close modal" data-micromodal-close>Apply</button>
+          </main>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
